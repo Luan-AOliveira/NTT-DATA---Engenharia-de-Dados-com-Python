@@ -22,7 +22,7 @@ saldo *= 10
 print(saldo)
 
 
-saldo %= 4 # função módulo serve para retornar  resto da divisão
+saldo %= 4 # função módulo(%) serve para retornar  resto da divisão
 print(saldo)
 
 

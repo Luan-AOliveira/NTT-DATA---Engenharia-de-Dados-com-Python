@@ -48,7 +48,7 @@ if opcao == 1:
 elif opcao == 2:
     print("Exibindo o extrato...")
 else:
-    sys.exit("Opção inválidada")
+    ("Opção inválidada")
 
 
 

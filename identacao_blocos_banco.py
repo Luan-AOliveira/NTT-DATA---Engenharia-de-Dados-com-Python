@@ -49,3 +49,22 @@ elif opcao == 2:
     print("Exibindo o extrato...")
 else:
     sys.exit("Opção inválidada")
+
+
+
+#if aninhado / if dentro de if
+def realizar_saque(conta_normal, conta_universitaria, saldo, saque, cheque_especial):
+    if conta_normal:
+        if saldo >= saque:
+            print("Saque realizado com sucesso!")
+        elif saldo + cheque_especial >= saque:
+            print("Saque realizado com uso do cheque especial!")
+        else:
+            print("Saldo insuficiente!")
+    elif conta_universitaria:
+        if saldo >= saque:
+            print("Saque realizado com sucesso!")
+        else:
+            print("Saldo insuficiente!") 
+    else:
+        print("Tipo de conta inválido.")

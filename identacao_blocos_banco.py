@@ -41,7 +41,7 @@ else:
 
 
 #agora com if/elif/else
-opcao = int(input("Informe uma opção: [1] Sacar\n[2] Extratp"))
+opcao = int(input("Informe uma opção: [1] Sacar\n[2] Extrato: \n"))
 
 if opcao == 1:
     valor = float(input("Informa a quantia para o saque: "))
